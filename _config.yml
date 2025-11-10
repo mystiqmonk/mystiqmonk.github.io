@@ -1,5 +1,5 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: Upendra Kadre
+subtitle: Software Engineer
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
@@ -8,53 +8,59 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
-    - text: Home
-      url: /
+    # - text: Home
+    #   url: /
     - text: About
       url: /about
     - text: Blog
       url: /blog
     - text: Gallery
       url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact
-      url : /contact
+    # - text: Shop
+    #   url : /shop
+    # - text: Contact
+    #   url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
-hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+author: Upendra Kadre
+author_bio: I am a Computer Science Graduate from VIT, Pune.With Experience of more than 4 years in IT Industry. I have worked as a Software Engineer, working with java, Python. 
+author_email: "upendra.kadre.career@gmail.com"
+author_location: Pune, India
+author_website_url: "https://mystiqmonk.github.io"
+typewrite-text: Hey , Upendra here 👋. I am a Passionate Computer Engineer 💻 and Space enthusiast🧑‍🚀 who loves Music 🎸
+hero_cover_img: bg.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
+            - company_name: British Petrolium
+              company_logo: bp-logo1.jpg
+              company_url: https://bp.com
+              designation: AI/ML Engineer
               description: Worked on various Google Products
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
+            - company_name: Deutsche Bank
+              company_logo: db-logo1.png
+              company_url: https://db.com
+              designation: Software Developer
               description: Worked on various Azure Cloud Products
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: vit-logo.jpg
+                college_name: VIT Pune (2017-2021)
+                college_url: https://vit.edu
+                college_degree: B.Tech (Computer Science)
+                description: CGPA:8.96
+                visibility: true
+              - college_logo: bits-logo.png
+                college_name: BITS Pilani WILP (2025-2027)
+                college_url: https://bits-pilani-wilp.ac.in
+                college_degree: M.Tech (Artificial Intelligence / Machine Learning)
+                description: CGPA:N/A
                 visibility: true
 
 # Projects
@@ -71,9 +77,9 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: xplor4r
-github_username:  sujaykundu777
-instagram_username: xplor4r
+twitter_username: _mystiqmonk_
+github_username:  mystiqmonk
+instagram_username: _mystiqmonk_
 # facebook_username: johndoe
 # linkedin_username: johndoe
 # behance_username: johndoe
