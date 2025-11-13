@@ -98,7 +98,7 @@ layout: default
       {% endif %} {% if site.author_email %}
       <h6><a href="mailto:{{ site.author_email }}"><i class="fas fa-envelope" class="social-link"></i> {{ site.author_email }}</a></h6>
       {% endif %} {% if site.author_website_url %}
-      <h6><a href="{{ site.author_website_url }}"><i class="fas fa-link" class="social-link"></i> {{ site.author_website_url }}</a></h6>
+      <h6><a href="{{ site.author_website_url }}"><i class="fas fa-link" class="social-link"></i> Download Resume Here!</a></h6>
       {% endif %}
     </div>
 
@@ -129,13 +129,13 @@ layout: default
       {% for project in site.author_project_details %} {% if project.visibility
       == true %}
       <div class="row" id="project-card">
-        <div class="col-md-6">
+        <!-- <div class="col-md-6">
           <img
             src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}"
             class="project-img"
           />
-        </div>
-        <div class="col-md-4 center">
+        </div> -->
+        <div class="col-md-10 center">
           <h4 class="experience-title">{{ project.project_title }}</h4>
           <h6 class="experience-info">{{ project.project_info}}</h6>
           <p class="experience-desc">{{ project.project_description }}</p>

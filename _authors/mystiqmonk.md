@@ -4,7 +4,7 @@ username: mystiqmonk
 bio: "Software Engineer, based in Pune, India"
 site: https://mystiqmonk.github.io
 avatar: johndoe.png
-email: upendra.kadre.career@gmail.com
+email: upendra@kadre.in
 social:
       - title: "github"
         url: "https://github.com/mystiqmonk"

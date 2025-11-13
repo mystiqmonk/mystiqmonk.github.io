@@ -26,10 +26,10 @@ urls:
 
 author_logo: profile.png
 author: Upendra Kadre
-author_bio: I am a Computer Science Graduate from VIT, Pune.With Experience of more than 4 years in IT Industry. I have worked as a Software Engineer, working with java, Python. 
-author_email: "upendra.kadre.career@gmail.com"
+author_bio: I am a passionate software engineer with expertise in Java , Python and modern web technologies. With a CGPA of 8.96 from VIT Pune, I am skilled in optimizing backend performance and enhancing application security. My professional experience includes impactful projects at Deutsche Bank, where I improved data processing efficiency and user experience. I thrive in collaborative environments and am driven by innovation. 
+author_email: "upendra@kadre.in"
 author_location: Pune, India
-author_website_url: "https://mystiqmonk.github.io"
+author_website_url: "https://drive.google.com/uc?export=download&id=1ZW37AO6RU1Ff1qydgfZAV5w33BiKxOln"
 typewrite-text: Hey , Upendra here 👋. I am a Passionate Computer Engineer 💻 and Space enthusiast🧑‍🚀 who loves Music 🎸
 hero_cover_img: bg.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
@@ -66,24 +66,30 @@ author_education_details:
 # Projects
 author_project_details:
               - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+                project_title: Face Recognition
+                project_description: >-
+                 Face Recognition Security System enhances security measures through advanced technology.
+                 <ul>
+                 <li>Developed and implemented a face recognition-based security system using Python , OpenCVand Deep Learning.</li>
+                 <li>System logs arrival time of unauthorizedindividuals and triggers an alarm in critical cases.</li>
+                 <li>Provides an administrator interface for monitoringand managing recorded data.</li>
+                 </ul>
+                project_url: https://github.com/upenk221b/Face-recognition
                 visibility: true
               - project_thumbnail: hack4r.PNG
                 project_title: Hack4r
                 project_description: A Platform built for Hackers and Penetration Testers
                 project_url: https://hack4r.com
-                visibility: true
+                visibility: false
 
 # social links
 twitter_username: _mystiqmonk_
 github_username:  mystiqmonk
 instagram_username: _mystiqmonk_
 # facebook_username: johndoe
-# linkedin_username: johndoe
+linkedin_username: upenk221b
 # behance_username: johndoe
-# medium_username: johndoe
+medium_username: upendra1999kadre
 # telegram_username: johndoe
 # dribbble_username: johndoe
 # flickr_username: johndoe
