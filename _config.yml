@@ -10,7 +10,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 urls:
     # - text: Home
     #   url: /
-    - text: About
+    - text: About Me
       url: /about
     - text: Blog
       url: /blog
@@ -35,17 +35,47 @@ hero_cover_img: bg.jpg # replace this for changing homepage cover (eg. try cover
 
 # Experiences
 author_work_experiences:
-            - company_name: British Petrolium
+            - company_name: British Petrolium (June 2025- Present)
               company_logo: bp-logo1.jpg
               company_url: https://bp.com
-              designation: AI/ML Engineer
-              description: Worked on various Google Products
+              designation: Sr. Software Engineer
+              description: >-
+                BP plc (British Petroleum) is one of the world's largest integrated oil and gas companies, headquartered in London, and operates across all major sectors of the energy industry. Founded in 1909, BP has a global presence in exploration, refining, distribution, and renewable energy initiatives
+                <ul>
+                <li>Reduced the licensing cost of Power Apps with inhouse solutions</li>
+                <li>Engineered solutions for Coke Quality Barn Maps visualizations</li>
+                </ul>
               visibility: true
-            - company_name: Deutsche Bank
+            - company_name: Deutsche Bank (Jul 2021 - June 2025)
               company_logo: db-logo1.png
               company_url: https://db.com
               designation: Software Developer
-              description: Worked on various Azure Cloud Products
+              description: >-
+                Deutsche Bank is a leading global investment bank with a strong presence in
+                Europe, Americas, and Asia Pacific, providing a wide range of financial services.
+                <ul>
+                
+                <li>Resolved the 'Download Starvation problem' in an event-driven automated
+                file downloader, reducing download wait time by 60%.</li>
+  
+                <li>Efficiently handled multiple file processing and manipulation tasks using Java
+                Concurrency, employing multithreading techniques to optimize performance
+                and reduce processing time in large-scale data workflows by 35%.</li>
+                
+                <li>Deployed scalable applications on Openshift cloud platform and Google cloud
+                platform</li>
+                
+                <li>Implemented and optimized CI/CD pipelines using TeamCity, automating
+                build, test, and deployment processes to ensure faster and more reliable
+                software delivery.</li>
+                
+                <li>Implemented mutual TLS authentication in the Treasury Orchestrator
+                application, enhancing security and ensuring 100% secure communication
+                between services.</li>
+                
+                <li>Enhanced REST API performance with Redis client-side caching, making data
+                fetch 70% faster.</li>
+                </ul>
               visibility: true
 
 # Education
@@ -74,7 +104,7 @@ author_project_details:
                  <li>System logs arrival time of unauthorizedindividuals and triggers an alarm in critical cases.</li>
                  <li>Provides an administrator interface for monitoringand managing recorded data.</li>
                  </ul>
-                project_url: https://github.com/upenk221b/Face-recognition
+                project_url: https://github.com/mystiqmonk/Face-recognition
                 visibility: true
               - project_thumbnail: hack4r.PNG
                 project_title: Hack4r
@@ -99,8 +129,6 @@ medium_username: upendra1999kadre
 # disqus_shortname: sujay-kundu
 # hyvor_talk_website_id: 476
 
-# wakatime username (coding activity)
-wakatime_username: sujaykundu777
 
 # mailchimp embedded form url (newsletter):
 mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0

@@ -1,0 +1,77 @@
+<style>
+figure {
+  float: center;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0em;
+  padding: 2em;
+}
+</style>
+
+<figure>
+  <a target="_blank" href="https://github.com/{{ site.github_username }}"><img id="ghContributions" src="https://ghchart.rshah.org/{{ site.github_username }}" alt="{{ site.github_username }}'s Github contributions"/></a>
+
+  <figcaption id="ghContributionsCaption">Github Contribution Graph</figcaption>
+
+</figure>
+
+<script>
+  function randomInt(min, max) {
+    return Math.floor((Math.random() * (max - min)) + min)
+  }
+  function randomColorInt() {
+    return randomInt(1, 255);
+  }
+  function randomColorHex() {
+    return randomColorInt().toString(16);
+  }
+
+  function getRandomRgbHex() {
+    return `${randomColorHex()}${randomColorHex()}${randomColorHex()}`
+  }
+
+  function getGhColorChart(rgbHex) {
+    return `https://ghchart.rshah.org/${rgbHex}/{{ site.github_username }}`
+  }
+
+  function setGhContributionsChart(urlColor) {
+    document.getElementById("ghContributions").src = urlColor
+  }
+
+  function setGhContributionsCaption(figureCaption) {
+    document.getElementById("ghContributionsCaption").innerHTML = figureCaption
+  }
+
+  function updateChContributionChart(rgbHex) {
+    var urlColor = getGhColorChart(rgbHex)
+    var figureCaption = `Github Contribution Graph (Base RGB HEX: ${rgbHex})`
+
+    setGhContributionsChart(urlColor)
+    setGhContributionsCaption(figureCaption)
+  }
+
+  function randomizeGhContributionChart() {
+    var rgbHex = getRandomRgbHex()
+    console.log(`Random: ${rgbHex}`)
+
+    updateChContributionChart(rgbHex)
+  }
+
+  function submitColorGhContributionChart() {
+    var rgbHex = document.getElementById("submitColorHex").elements[0].value;
+    rgbHex = rgbHex.substr(1);
+    console.log(`Submission: ${rgbHex}`)
+
+    updateChContributionChart(rgbHex)
+  }
+
+  function resetGhContribitionChart() {
+    setGhContributionsChart(`https://ghchart.rshah.org/{{ site.github_username }}`)
+    setGhContributionsCaption(`Github Contribution Graph`)
+  }
+
+</script>
